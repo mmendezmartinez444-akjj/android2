@@ -1,0 +1,26 @@
+name: tu_solution
+description: "Tu Solution - Gestión de reparaciones de un taller de dispositivos electrónicos."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Gestión de estado (obligatorio)
+  flutter_riverpod: ^2.5.1
+  # Persistencia en SQLite (obligatorio)
+  drift: ^2.18.0
+  drift_flutter: ^0.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: '>=3.0.0 <7.0.0'
+  drift_dev: ^2.18.0
+  build_runner: ^2.4.9
+
+flutter:
+  uses-material-design: true
